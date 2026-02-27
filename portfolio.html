@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - John Doe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation (Same) -->
+    <nav class="navbar">
+        <!-- Same navigation with active class for portfolio -->
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <p>Check out my latest work</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Filter -->
+    <section class="portfolio-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="app">App Development</button>
+                <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-grid">
+        <div class="container">
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="images/project1.jpg" alt="Project 1">
+                        <div class="portfolio-overlay">
+                            <h3>E-Commerce Website</h3>
+                            <p>React, Node.js, MongoDB</p>
+                            <a href="#" class="btn-small">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-image">
+                        <img src="images/project2.jpg" alt="Project 2">
+                        <div class="portfolio-overlay">
+                            <h3>Task Manager App</h3>
+                            <p>React Native, Firebase</p>
+                            <a href="#" class="btn-small">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Add more projects similarly -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+</body>
+</html>
